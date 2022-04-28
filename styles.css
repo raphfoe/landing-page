@@ -1,5 +1,4 @@
 body {
-    font-family: roboto;
 }
 
 .header {
@@ -8,16 +7,18 @@ body {
     background: #1F2937;
     color: white;
     display: flex;
+    font-family: roboto;
 }
 
 .left, .right {
-    gap: 12px;
+    gap: 20px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 600;
     color: #f9faf8
+    padding: 20px;
 }
 
 ul {
